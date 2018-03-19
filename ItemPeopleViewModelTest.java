@@ -53,6 +53,7 @@ import static org.mockito.Mockito.verify;
         people.cell = PEOPLE_CELL_TEST;
         ItemPeopleViewModel itemPeopleViewModel = new ItemPeopleViewModel(people, mockContext);
         assertEquals(people.cell, itemPeopleViewModel.getCell());
+        //pull your code
     }
 
     @Test public void shouldGetPeopleMail() throws Exception {
